@@ -15,14 +15,20 @@ A professional portfolio focused on product leadership in fintech, payments, and
 1. Open **Settings → Pages** in this repository.
 2. Under **Build and deployment**, select **Deploy from a branch**.
 3. Choose branch **main** and folder **/(root)**, then save.
-4. After the deployment finishes, open the URL shown in Pages settings.
+4. Wait for the Pages deployment to finish, then open the URL shown in Pages settings.
 
-If this repository is intended to publish at `https://bhushansawarkar.github.io`, ensure its repository name exactly matches the GitHub Pages naming convention for the account owner.
+### Expected project-site URL
 
-## Personalize before broad promotion
+Because this repository is named `bhushansawarkar` rather than `bhushansawarkar25.github.io`, GitHub Pages will normally publish it at:
 
-- Add your exact LinkedIn profile URL.
-- Add a professional email address in the Contact section.
+`https://bhushansawarkar25.github.io/bhushansawarkar/`
+
+To publish at the root URL `https://bhushansawarkar25.github.io/`, create or rename the repository to exactly `bhushansawarkar25.github.io` (the account name must match the GitHub username). You can do this later; the project-site route is fine for the initial version.
+
+## Personalize before sharing
+
+- Replace the LinkedIn placeholder in `index.html` with your actual LinkedIn profile URL.
+- Replace the email placeholder with an address you are comfortable publishing publicly.
 - Review all biographical and business claims.
 - Replace illustrative case-study themes with verified, approved narratives.
 - Do not publish confidential employer, customer, partner, or transaction information.
@@ -31,6 +37,6 @@ If this repository is intended to publish at `https://bhushansawarkar.github.io`
 
 - `index.html` — single-page portfolio and navigation sections
 - `assets/css/style.css` — responsive visual design
-- `assets/js/main.js` — mobile navigation and active section state
+- `assets/js/main.js` — mobile navigation and active section behavior
 
 Built with semantic HTML, CSS, and lightweight vanilla JavaScript.
